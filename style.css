@@ -58,7 +58,7 @@ header {
 #main-doc {
     position: absolute;
     margin-bottom: 110px;
-    margin-left: 350px;
+    margin-left: 320px;
     padding: 20px;
 }
 
@@ -72,7 +72,7 @@ section li {
 
 code {
     display: block;
-    background-color: rgb(238, 236, 236);
+    background-color: rgb(255, 244, 244);
     text-align: left;
     white-space: pre-line;
     border-radius: 4px;
@@ -80,4 +80,12 @@ code {
     position: relative;
     word-break: normal;
     word-wrap: normal;
+    padding: 15px;
+    margin: 10px;
+}
+
+@media(min-width:940px){
+#main-doc{
+white-space: nowrap;
+}
 }
